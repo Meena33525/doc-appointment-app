@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+hr {
+  @apply hidden;
+}
+
+.active hr {
+  @apply block border-none outline-none h-0.5 bg-blue-600 w-3/5 m-auto;
+}
+
+::-webkit-scrollbar {
+  @apply hidden;
+}
